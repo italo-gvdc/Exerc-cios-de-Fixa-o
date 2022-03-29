@@ -15,4 +15,10 @@ Quando uma media query é verdadeira, a camada de estilo ou as regras de estilos
 
 <-- -- -->
 
-DIFERENÇA ENTRE MARGIN E PADDING: 
+DIFERENÇA ENTRE MARGIN E PADDING:  Margin / Margem - Espaçamento fora do conteúdo. Padding / Preenchimento - Espaçamento dentro dos limites do conteúdo. Tendo em conta que o limite do espaçamento do conteúdo de um elemento é a sua borda (border box).
+Portanto, a grande diferença neste caso será que a margem é aplicada já fora do elemento e criará espaçamento entre os restantes elementos, porém o padding irá criar espaçamento dentro do próprio conteúdo do elemento, não afetando o espaçamento dos outros elementos.
+PADDING: É usado para geral um espaço em torno do conteúdo.
+MARGIN: É usado para gerar espaço em tono dos elementos.
+
+<-- -- -->
+
