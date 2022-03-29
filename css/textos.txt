@@ -22,4 +22,13 @@ MARGIN: É usado para gerar espaço em tono dos elementos.
 
 <-- -- -->
 
-CSS BOX RENDER:
+CSS BOX RENDER: O modelo de caixa CSS é um contêiner que contém várias propriedades, incluindo bordas, margem, preenchimento e o próprio conteúdo. Ele é usado para criar o design e o layout de páginas da web. Ele pode ser usado como um kit de ferramentas para personalizar o layout de diferentes elementos. O navegador da web renderiza cada elemento como uma caixa retangular de acordo com o modelo de caixa CSS. Box-Model tem várias propriedades em CSS.
+content : Esta propriedade é usada para exibir o texto, imagens, etc, que podem ser dimensionados usando a propriedade largura e altura .
+padding : Esta propriedade é usada para criar espaço ao redor do elemento, dentro de qualquer borda definida.
+border : Esta propriedade é usada para cobrir o conteúdo e qualquer preenchimento, e também permite definir o estilo, cor e largura da borda.
+margin : Esta propriedade é usada para criar espaço ao redor do elemento, ou seja, ao redor da área da borda.
+
+<-- -- -->
+
+CSS BOX SIZING: A propriedade CSS box-sizing permite incluir o preenchimento e a borda na largura e altura total de um elemento, a largura e a altura de um elemento são calculadas assim: largura + preenchimento + borda = largura real de um elemento / altura + preenchimento + borda = altura real de um elemento. Quando definida largura/altura de um elemento o elemento geralmente aparece maior do que você definiu, porque a borda e o preenchimento do elemento são adicionados à largura/altura especificada do elemento.
+A box-sizing permite incluir o preenchimento e a borda na largura e altura totais de um elemento, box-sizing: border-box, em um elemento, o preenchimento e a borda serão incluídos na largura e na altura.
