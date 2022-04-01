@@ -1,24 +1,31 @@
 .container {
+  width: 50%;
   display: grid;
-}
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 85px 1fr 85px;
+  grid-gap: 10px;
+  grid-template-areas:  "header header" "nav main" "footer footer"
+} 
 
 header {
   background-color: blue;
-  height: 100px;
+  grid-area: header;
 }
 
 nav {
   background-color: orange;
-  height: 100px;
+  grid-area: nav;
+  height: 400px;
 }
 
 main {
   background-color: pink;
-  height: 100px;
+  grid-area: main;
 }
 
 footer {
   background-color: green;
-  height: 100px;
+  grid-area: footer;
+
 }
 
