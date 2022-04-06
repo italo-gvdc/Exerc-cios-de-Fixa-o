@@ -1,11 +1,12 @@
 .container {
+  margin: 5% 25% 5% 25%;
   width: 50%;
   display: grid;
   grid-template-columns: 150px 1fr;
   grid-template-rows: 85px 1fr 85px;
   grid-gap: 10px;
   grid-template-areas:  "header header" "nav main" "footer footer"
-} 
+}
 
 header {
   background-color: blue;
@@ -28,4 +29,3 @@ footer {
   grid-area: footer;
 
 }
-
