@@ -1,12 +1,13 @@
 .container {
-  width: 50%;
   max-width: 1024px;
-  margin: 25px 25% 5px 25%;
+  margin: auto;
   display: grid;
   grid-template-columns: 150px 1fr;
   grid-template-rows: 85px 1fr 85px;
   grid-gap: 10px;
-  grid-template-areas:  "header header" "nav main" "footer footer"
+  grid-template-areas:  "header header" 
+                        "nav main" 
+                        "footer footer"
 }
 
 header {
@@ -30,9 +31,32 @@ footer {
   grid-area: footer;
 }
 
-@media(max-width: 1024px) {
-   .container {
-      flex-wrap: wrap;
-   }
+@media (max-width: 1024px) {
+
+  .container {
+    max-width: 750px;
+  }
+
 }
 
+@media (max-width: 800px) {
+
+  .container {
+    max-width: 100%
+    margin: 0 20px 0 20px;
+  }
+
+  .container {
+
+    grid-template-rows: 85px 1fr 1fr 85px;
+
+    grid-template-areas: 
+
+        "header"
+        "nav"
+        "main"
+        "footer"
+
+  }
+
+}
