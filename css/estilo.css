@@ -1,6 +1,7 @@
 .container {
-  margin: 5% 25% 5% 25%;
   width: 50%;
+  max-width: 1024px;
+  margin: 25px 25% 5px 25%;
   display: grid;
   grid-template-columns: 150px 1fr;
   grid-template-rows: 85px 1fr 85px;
@@ -27,5 +28,11 @@ main {
 footer {
   background-color: green;
   grid-area: footer;
-
 }
+
+@media(max-width: 1024px) {
+   .container {
+      flex-wrap: wrap;
+   }
+}
+
